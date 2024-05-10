@@ -11,7 +11,7 @@ html{
 }
 /* MENU */
 .contenedor-header{
-    background: #1e2326;
+    background: #00276c;
     position: fixed;
     width: 100%;
     top: 0;
@@ -29,7 +29,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color:#2A7AE4;
+    color:#dbe7f6;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -57,21 +57,22 @@ html{
 }
 /*SECCION INICIO*/
 .inicio{
-    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(fondo.jpg);
+   
+    background-image:url(fondo.jpg);
     background-size: cover;
     height: 100vh;
-    color: #fff;
+    color: #2A7AE4;    
     display: flex;
     align-items: center;
 }
 .inicio .contenedor-banner{
     padding: 20px;
-    background-color: #1e2326;
-    max-width: 350px;
+    /*background-color: #00276c;*/
+  
+    max-width: 330px;
     margin: auto;
     text-align: center;
-    border-radius: 40px;
+    border-radius: 50px;
 }
 .inicio .contenedor-banner img{
     margin-top: 40px;
@@ -104,14 +105,24 @@ html{
     transition: .3s;
 }
 .inicio .contenedor-banner .redes a:hover{
-    background-color:#2A7AE4;
+    background-color:#00276c;
 }
-.sobremi{
-    background-color: #1e2326;
-    color: #fff;
-    padding: 50px 20px;
+.sobremi .contenido-seccion-education{
+    padding: 55px 20px;
+    background: linear-gradient(rgb(255, 230, 41),rgb(255, 255, 255) ) ;
+    color: #00276c;
+    
 }
-.sobremi .contenido-seccion{
+.contenido-seccion-about{
+    padding: 55px 20px;
+    background: linear-gradient(rgb(255, 255, 255),rgb(255, 230, 41)) ;
+   
+
+    color: #00276c;
+
+}
+.sobremi .contenido-seccion-sobremi{
+     background-color:#2A7AE4;
     max-width: 1100px;
     margin: auto;
     text-align: justify;
@@ -126,16 +137,20 @@ html{
     font: 18px;
     line-height: 22px;
     margin-bottom: 20px;
+    
 }
 .sobremi .contenido-seccion p span{
-    color:#f3da35;
+    color: #00276c;
     font-weight: bold;
 }
 .sobremi .fila{
     display: flex;
 }
 .sobremi .fila .col{
-    width: 50%;
+    max-width: 1100px;
+padding: 50px 20px;
+   max-width: 1100px;
+    margin: auto;
 }
 .sobremi .fila .col h3{
     font-size: 28px;
@@ -146,7 +161,8 @@ html{
     list-style: none;
 }
 .sobremi .fila .col ul li{
-    margin: 12px 0px;
+    padding: 20px;
+    margin: 12px 12px;
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
@@ -166,7 +182,7 @@ html{
 .sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: #252a2e;
+    background-color:#2A7AE4;
     margin: 0 15px 15px 0;
     display: flex;
     flex-direction: column;
@@ -175,7 +191,8 @@ html{
     transition: .3s;
 }
 .sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color:#2A7AE4;
+    background-color:#ffffff;
+
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
@@ -183,14 +200,13 @@ html{
 }
 .sobremi button{
     cursor: pointer;
-    background-color: transparent;
-    border: 2px solid #fff;
+    background-color:#099eef;
+    border:#099eef  2px solid #fff;
     width: fit-content;
     display: block;
     margin: 20px auto;
     padding: 10px 22px;
-    font-size: 16px;
-    color: #fff;
+    font-size: 18px;
     position: relative;
     z-index: 10;
 }
@@ -200,7 +216,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color:#2A7AE4;
+    background-color:#099eef;
     z-index: -1;
     transition: .3s;
 }
@@ -211,9 +227,11 @@ html{
 /*SECCION SKILLS*/
 
 .skills{
-    background-color: #252a2e;
-    color: #fff;
-    padding: 50px 20px;
+   /* background-color: #00276c; */
+
+    background: linear-gradient(rgb(255, 255, 255),rgb(0, 39, 108)) ;
+    color:#00276c;
+    padding: 60px 20px;
 }
 .skills .contenido-seccion{
     max-width: 1100px;
@@ -245,7 +263,7 @@ html{
 .skills .skill .barra-skill{
     height: 8px;
     width: 80%;
-    background-color: #131517;
+    background-color:#00276c;
     position: relative;
     margin-bottom: 30px;
 }
@@ -334,9 +352,9 @@ font-size: 14px;
 }
 /*SECCION CURRICULUM*/
 .curriculum{
-    background-color: #1e2326;
+    background: linear-gradient(rgb(0, 39, 108),rgb(255, 255, 255)) ;
     color: #fff;
-    padding: 50px 20px;
+    padding: 60px 20px;
 }
 .curriculum .contenido-seccion{
     max-width: 1100px;
@@ -362,15 +380,15 @@ font-size: 14px;
     margin-bottom: 25px;
 }
 .curriculum .fila .izquierda{
-    border-right: 2px solid #252a2e;
+    border-right: 2px solid #ccc;
 }
 .curriculum .fila .derecha{
-    border-left: 2px solid #252a2e;
+    border-left: 2px solid #ccc;
 }
 .curriculum .fila .item{
     padding: 25px;
     margin-bottom: 30px;
-    background-color: #252a2e;
+    background-color:#00276c;
     position: relative;
 }
 .curriculum .fila .item h4{
@@ -439,9 +457,10 @@ font-size: 14px;
 }
 /*SECCION PORTAFOLIO*/
 .portafolio{
-    background-color: #252a2e;
-    color: #fff;
-    padding: 50px 20px;
+    background: linear-gradient(rgb(255, 255, 255),rgb(37, 42, 46)) ;
+    /*background-color: #252a2e;*/
+    color:#00276c;
+    padding: 60px 20px;
 }
 .portafolio .contenido-seccion{
     max-width: 1100px;
