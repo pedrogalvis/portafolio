@@ -529,23 +529,6 @@ font-size: 14px;
   text-align: center;
 }
 
-.experience__img{
-  width: 100%;
-}
-
-.experience__title{
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18.78px;
-}
-
-.experience__text{
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16.44px;
-}
-
-
 .experiencia__botao--repo{
   color: #2a7ae4;
   font-weight: 600;
