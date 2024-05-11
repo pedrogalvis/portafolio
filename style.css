@@ -706,3 +706,48 @@ footer .arriba{
         width: 100%;
     }
 }
+
+.experiencia__botao--repo{
+  color: #2a7ae4;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16.44px;
+  width: 108px;
+  height: 40px;
+  padding: 12px 16px 12px 16px;
+  gap: 10px;
+  margin-right: 16px;
+  border: 1px solid #2a7ae4;
+}
+
+.experience__botao--demo:hover, .experiencia__botao--repo:hover, .formcontato__botao:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.experience__botao--demo:active, .formcontato__botao:active{
+  color: #2a7ae4;
+  background-color: #ffffff;
+  border-color: #2a7ae4;
+  transform: scale(1.0);
+}
+
+.experiencia__botao--repo:active{
+  color: #ffffff;
+  background-color: #2a7ae4;
+  border-color: #ffffff;
+  transform: scale(1.0);
+}
+
+
+.experience__botao--demo{
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16.44px;
+  width: 100px;
+  height: 40px;
+  padding: 12px 16px 12px 16px;
+  gap: 10px;
+  background-color: #2a7ae4;
+  border: 1px solid #ffffff;
