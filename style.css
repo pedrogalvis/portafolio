@@ -88,8 +88,10 @@ html{
     font-family: 'Righteous';
 }
 .inicio .contenedor-banner h2{
-    font-size: 15px;
+    font-size: 25px;
     font-weight: normal;
+    color: #00276c; text-shadow: rgb(199, 202, 18) 0.1em 0.1em 0.1em
+   
 }
 .inicio .contenedor-banner .redes a{
     color: #fff;
