@@ -115,6 +115,13 @@ html{
     color: #00276c;
     
 }
+.sobremiuni{
+    display: flex;
+    justify-content: center;
+    text-orientation: justify;
+    flex-wrap: wrap;
+    background-color:  #cccccc; 
+}
 .contenido-seccion-about{
     background-color:  #cccccc;
     padding: 55px 20px;
